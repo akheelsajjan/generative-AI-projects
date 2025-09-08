@@ -15,29 +15,4 @@ It will serve as a living collection of code examples, experiments, and framewor
 A **Vanilla Agent** is the most minimal form of an AI agent — built without any external frameworks.  
 It uses just the raw LLM API, a loop, and a set of tools/functions you define.
 
-┌────────────┐
-│ User Input │
-└─────┬──────┘
-      │
-      ▼
-┌──────────────────────┐
-│ Send to LLM + Tools │
-└─────────┬────────────┘
-          │
-          ▼
-┌───────────────────────────────┐
-│ LLM decides:                  │
-│  • Answer directly            │
-│  • Or call a tool (with args) │
-└─────────┬─────────────────────┘
-          │
-   ┌──────┴────────┐
-   │               │
-   ▼               ▼
-Direct Answer   Tool Call
-   │               │
-   ▼               ▼
-┌─────────────────────────┐
-│ LLM produces Final Text │
-└─────────────────────────┘
 
